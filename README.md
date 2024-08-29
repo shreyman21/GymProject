@@ -13,6 +13,7 @@ GymProject is a machine learning-based exercise classification system. This proj
 
 ## Project Structure
 
+```plaintext
 GymProject/
 ├── app.py                 # Flask application for handling video uploads and predictions
 ├── create_model.py        # Script for training the TensorFlow model
