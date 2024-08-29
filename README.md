@@ -13,7 +13,6 @@ GymProject is a machine learning-based exercise classification system. This proj
 
 ## Project Structure
 
-```plaintext
 GymProject/
 ├── app.py                 # Flask application for handling video uploads and predictions
 ├── create_model.py        # Script for training the TensorFlow model
@@ -24,23 +23,4 @@ GymProject/
 ├── .gitignore             # Git ignore file
 ├── venv/                  # Python virtual environment
 └── exercise_model.h5      # Trained TensorFlow model (excluded from version control)
-
-## Prerequisites
-
-- **Python 3.8+**: Ensure you have Python installed on your system.
-- **Virtualenv**: For creating isolated Python environments.
-- **Git LFS**: Git Large File Storage (LFS) is needed to handle large files like `.mp4` and `.h5`.
-- **TensorFlow**: The machine learning library required for the model.
-- **OpenCV**: For video processing and frame extraction.
-
-## Setup Instructions
-
-### 1. Clone the Repository
-
-Clone the repository to your local machine using the following command:
-
-```bash
-git clone <repository-url>
-cd GymProject
-
 
